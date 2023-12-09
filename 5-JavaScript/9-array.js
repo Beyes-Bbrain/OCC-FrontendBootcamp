@@ -34,4 +34,10 @@ console.log("Value of Wonder Woman is", superheros.indexOf("Wonder Woman"));
 console.log("Joined Array:",superheros.join("-"));
 
 let sliceArray = superheros.slice(1,4);
-console.log(sliceArray);
+console.log("Sliced Array:",sliceArray);
+console.log("Superheros Array:",superheros);
+
+let removedElements = superheros.splice(2,2)
+
+console.log(("Removed Elements:",removedElements));
+console.log(("Upadted array:",superheros));
